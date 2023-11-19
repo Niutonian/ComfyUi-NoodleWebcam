@@ -1,23 +1,47 @@
-# ComfyUi-NoodleWebcam
+## ComfyUi-NoodleWebcam
 Noodle webcam is a node that records frames and send them to your favourite node.
 
 Currently you can only select the webcam, set the frame rate, set the duration and start/stop the stream (for continuous streaming TODO). 
 
-As of now it is broken, because the preview doesn't return images, but it will be fixed soon
+## BROKEN THINGS// ANY HELP TO FIX THESE ISSUES WOULD BE MORE THAN WELCOME
+- This node is completely broken because you need to change the framerate or duration to get the node to restart.
+- It will randomly crash and need a restart of comfyUI
+- doesn't return the correct preview
 
-#PREVIEW
+##PREVIEW
+
+## EXAMPLE NODE
 ![Tiger workflow](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode.png)
+
+## WORKFLOW
+Example of output
 ![Tiger workflow](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/workflow.png)
-![WebcamToOpenPoseDW](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_OpPDW.mp4)
-![WebcamToDepth](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_depth.mp4)
-![WebcamToDepthInvert](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_depth_invert.mp4)
-![WebcamNode](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode.mp4)
+
+OpenPoseDW Controlnet
+
+![WebcamToOpenPoseDW](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_OpPDW.gif)
+
+Depth Controlnet
+
+![WebcamToDepth](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_depth.gif)
+
+Depth Controlnet invert node on
+
+![WebcamToDepthInvert](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode_depth_invert.gif)
+
+Have fun
+
+![WebcamNode](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode.gif)
 
 
-## Installation
+## NEEDED CUSTOM NODES
+AnimateDiff Evolved https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+
+## INSTALLATION
 To install clone this repo inside your confyUI's custom_nodes folder
 
 
 ## TODO
--- Fix the bugs that forces you to change a parameter to restart the webcam
+-- Fix all the bugs above
+
 -- Continuous streaming
