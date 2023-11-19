@@ -1,6 +1,7 @@
 ## ComfyUi-NoodleWebcam
 Noodle webcam is a node that records frames and send them to your favourite node.
 
+![NoodleNode](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/noodlenode.png)
 
 
 Currently you can only select the webcam, set the frame rate, set the duration and start/stop the stream (for continuous streaming TODO). 
