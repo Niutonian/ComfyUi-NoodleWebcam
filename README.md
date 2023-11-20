@@ -37,7 +37,15 @@ Have fun
 
 
 ## NEEDED CUSTOM NODES
-AnimateDiff Evolved https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+AnimateDiff Evolved -  https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+
+pythongosssss ComfyUI-Custom-Scripts -  https://github.com/pythongosssss/ComfyUI-Custom-Scripts
+
+MTB Nodes -  https://github.com/melMass/comfy_mtb
+
+ComfyUI FizzNodes - https://github.com/FizzleDorf/ComfyUI_FizzNodes
+
+ComfyUI Advanced ControlNet -  https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
 
 ## INSTALLATION
 To install clone this repo inside your confyUI's custom_nodes folder
