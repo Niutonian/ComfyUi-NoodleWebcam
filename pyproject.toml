@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-noodlewebcam"
+description = "Nodes:Noodle webcam is a node that records frames and send them to your favourite node."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch", "torchvision", "opencv-python-headless"]
+
+[project.urls]
+Repository = "https://github.com/Niutonian/ComfyUi-NoodleWebcam"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUi-NoodleWebcam"
+Icon = ""
