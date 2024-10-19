@@ -36,7 +36,8 @@ Have fun
 ![WebcamNode](https://github.com/Niutonian/ComfyUi-NoodleWebcam/blob/main/workflow/webcamNode.gif)
 
 
-## NEEDED CUSTOM NODES
+## PREREQUISITES, NEEDED CUSTOM NODES
+
 AnimateDiff Evolved -  https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
 
 pythongosssss ComfyUI-Custom-Scripts -  https://github.com/pythongosssss/ComfyUI-Custom-Scripts
@@ -46,6 +47,10 @@ MTB Nodes -  https://github.com/melMass/comfy_mtb
 ComfyUI FizzNodes - https://github.com/FizzleDorf/ComfyUI_FizzNodes
 
 ComfyUI Advanced ControlNet -  https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet
+
+ComfyUI's ControlNet Auxiliary Preprocessors - https://github.com/Fannovel16/comfyui_controlnet_aux
+
+Latent Consistency Model for ComfyUI - https://github.com/0xbitches/ComfyUI-LCM
 
 ## INSTALLATION
 To install clone this repo inside your confyUI's custom_nodes folder
